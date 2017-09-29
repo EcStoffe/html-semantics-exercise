@@ -1,0 +1,82 @@
+body {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+header h1 {
+    background-color: deepskyblue;
+    padding-left: 20px;
+}
+
+p {
+margin-right: 50%;
+}
+
+section {
+    border: solid black 2px;
+    margin: 5px;
+    padding-left: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+
+}
+
+li:hover {
+    color: whitesmoke;
+}
+
+img {
+    width: 350px;
+    height: 300px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    margin-bottom: 5px;
+}
+a {
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    background-color: aquamarine;
+    border: solid black 1px;
+    padding: 10px;
+}
+
+a:hover {
+    -webkit-transform: scale(1);
+    font-size: 20px;
+}
+
+footer {
+    background-color: deepskyblue;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+    body {
+        background-color: darkslategrey;
+
+    }
+    form {
+        width: 100%;
+    }
+    input[type=text], textarea {
+        width: 60%;
+    }
+}
